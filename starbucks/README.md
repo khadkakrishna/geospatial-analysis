@@ -1,5 +1,7 @@
 ## Starbucks Stores Analysis
 ### Getting started
+
+#### see full output at notebook at https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
 ```
 import math
 import pandas as pd
