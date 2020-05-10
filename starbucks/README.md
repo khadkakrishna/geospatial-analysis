@@ -8,6 +8,5 @@ from geopandas.tools import geocode
 import folium 
 from folium import Marker
 from folium.plugins import MarkerCluster
-In [19]:
 from shapely.geometry import Point
 ```
