@@ -3,7 +3,9 @@
  https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
 
 <img src="data/image2.jpeg" alt="starbucks image" width="100%"/>
-#### Getting started / dependencies:
+
+
+### Getting started / dependencies:
 
 ```
 import math
