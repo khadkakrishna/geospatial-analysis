@@ -2,8 +2,7 @@
  see output-enabled notebook using nbviewer:
  https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
 
- ![starbucks image](data/image2.jpeg){:width: 200px;}
-
+<img src="data/image2.jpeg" alt="starbucks image" width="200"/>
 #### Getting started / dependencies:
 
 ```
