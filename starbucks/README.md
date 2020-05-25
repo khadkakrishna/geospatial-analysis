@@ -1,7 +1,10 @@
 ## Starbucks Stores Analysis
-### Getting started
  see output-enabled notebook using nbviewer:
  https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
+
+ ![starbucks image](data/image1.jpg)
+#### Getting started / dependencies:
+
 ```
 import math
 import pandas as pd
