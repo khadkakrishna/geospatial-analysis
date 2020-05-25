@@ -1,3 +1,3 @@
 # geospatial-analysis
 Projects related to geospatial data analysis and visualizations.
-![GIS image](data/images/image1.png){ width=100% }
+<img src="data/image/image1.png" alt="GIS image" width="100%"/>
