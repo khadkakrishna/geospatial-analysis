@@ -1,14 +1,30 @@
-# Geospatial Data Analysis
+## Starbucks Stores Analysis
 
-Geospatial data analytics rely on geographic coordinates and specific identifiers such as street address and zip code. They are used to create geographic models and data visualizations for more accurate modeling and predictions of trends.
+<img src="data/image2.jpeg" alt="starbucks image" width="100%"/>
 
-<img src="data/images/image1.png" alt="GIS image" width="100%"/>
+### Getting started / dependencies:
 
-### Scope of Geospatial Data Analysis
->Innovation and cutting-edge research and development (R&D) in the field of geospatial data, geospatial science, and analytics continue to yield new ways to incorporate geospatial data into new arenas and offer solutions to today’s most challenging problems. 
-Some of the most important aspects of use are:
- - Retail: Amazon, Walmart, Google etc. uses data for retail purpose
- - Health Care: Research continues into the application of social geography and redefining health care from a model of treatment to a model of prevention and wellness.
- - Financial Services: The financial services industry, which traditionally consumes data in the form of dollars, cents, credits, and debts contained within spreadsheets, balance sheets, or financial statements, has discovered value in geospatial data.
- - Logistics/Transportation: geospatial data has been most commonly associated with transportation through the utilization of maps for navigation and transit.
- 
+```
+import numpy as np
+import pandas as pd
+import geopandas as gpd
+from geopandas.tools import geocode     
+from shapely.geometry import Point
+from pyproj import CRS
+import folium 
+from folium import Marker
+from folium.plugins import MarkerCluster
+```
+
+### Analysis of starbucks stores:
+* Handling missing latitudes and longitudes values using geocoding API(OpenStreetMap Nominatim).
+* Consolidating different data of population, income, age etc.
+* Clustering on the basis of selection criteria on attributes like population, income and age of demographic boundaries.
+* Calculating score for each demographic boundaries using `Linear-Weighted Equation` by selecting appropriate logical weights for each of the attribute.
+* Selection of starbucks locations in top 5 admin-bounds.
+* clustering to visualize the top performing starbucks stores.
+
+#### see output-enabled notebook using nbviewer:
+> https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
+
+as `folium` is not supported by github.
