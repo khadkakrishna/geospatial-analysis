@@ -1,6 +1,6 @@
 ## Starbucks Stores Analysis
 
-<img src="data/image2.jpeg" alt="starbucks image" width="100%"/>
+<img src="data/starbucks-logo.jpeg" alt="starbucks image" width="100%"/>
 
 ### Getting started / dependencies:
 
