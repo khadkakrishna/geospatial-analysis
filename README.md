@@ -25,6 +25,6 @@ from folium.plugins import MarkerCluster
 * clustering to visualize the top performing starbucks stores.
 
 #### see output-enabled notebook using nbviewer:
-> https://nbviewer.jupyter.org/github/khadkakrishna/geospatial-analysis/blob/master/starbucks/Starbucks.ipynb 
+> https://nbviewer.jupyter.org/github/khadkakrishna/starbucks-stores-analysis/blob/master/Starbucks.ipynb
 
 as `folium` is not supported by github.
